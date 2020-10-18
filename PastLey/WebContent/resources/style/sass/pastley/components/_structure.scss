@@ -1,0 +1,32 @@
+/***************************************************
+ ****************** STRUCTURE **********************
+ ***************************************************/
+
+/***************************************************
+ * GENERIC
+ ***************************************************/
+.pastley-page-structure{
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: auto 1fr 1fr;
+	grid-template-areas: "Left 		Top 		Top"
+	                     "Left   	Center     	Center"
+		         	     "Left 	  	Center 		Center";
+	
+	&-top{
+		grid-area: Top;
+		position: relative;
+	}
+	
+	&-left{
+		grid-area: Left;
+		position: relative;
+	}
+	
+	&-center{
+		grid-area: Center;
+		min-height: 100%;
+		padding-bottom: 4em;
+		position: relative;
+	}
+}
