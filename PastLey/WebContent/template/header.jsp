@@ -12,9 +12,9 @@
 <!-- Icons -->
 <link rel="stylesheet" href="resources/vendor/nucleo/css/nucleo.css"
 	type="text/css">
-<link rel="stylesheet"
-	href="resources/vendor/@fortawesome/fontawesome-free/css/all.min.css"
-	type="text/css">
+	
+<!-- Font Awasome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
 
 <!-- Argon CSS -->
 <link rel="stylesheet" href="resources/style/css/argon.css?v=1.2.0"

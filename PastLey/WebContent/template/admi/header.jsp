@@ -12,9 +12,9 @@
 <link rel="stylesheet"
 	href="${url_project}resources/vendor/nucleo/css/nucleo.css"
 	type="text/css">
-<link rel="stylesheet"
-	href="${url_project}resources/vendor/@fortawesome/fontawesome-free/css/all.min.css"
-	type="text/css">
+	
+<!-- Font Awasome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
 
 <!-- Primeflex CSS -->
 <link rel="stylesheet"
